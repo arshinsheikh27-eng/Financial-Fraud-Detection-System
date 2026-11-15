@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Financial Fraud Detection - dataset files
+data/raw/
+data/processed/*.csv
+data/processed/model_ready/*.csv
