@@ -1,0 +1,32 @@
+{
+    "original_rows": 5000,
+    "original_columns": 21,
+    "input_features_before_encoding": 16,
+    "numerical_columns": [
+        "Transaction_Amount",
+        "Is_International",
+        "Previous_Transactions",
+        "Average_Spend",
+        "Account_Age_Days",
+        "Transaction_Hour",
+        "Transaction_Day",
+        "Transaction_Month",
+        "Day_of_Week",
+        "Is_Weekend",
+        "Amount_to_Average_Ratio",
+        "Amount_Difference"
+    ],
+    "categorical_columns": [
+        "Merchant_Category",
+        "Payment_Method",
+        "Device_Type",
+        "Location"
+    ],
+    "encoded_feature_count": 35,
+    "training_rows": 4000,
+    "testing_rows": 1000,
+    "training_start": "2023-01-01 02:16:00",
+    "training_end": "2023-11-29 01:11:00",
+    "testing_start": "2023-11-29 03:08:00",
+    "testing_end": "2024-02-21 15:34:00"
+}
