@@ -1,0 +1,3 @@
+Is_International,Total_Transactions,Fraud_Transactions,Fraud_Rate,Transaction_Type,Fraud_Rate_Percent
+0,3640,260,0.07142857142857142,Domestic,7.14
+1,360,134,0.37222222222222223,International,37.22
