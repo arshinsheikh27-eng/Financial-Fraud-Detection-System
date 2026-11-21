@@ -1,0 +1,42 @@
+DATASET QUALITY REPORT
+========================================
+Dataset Shape: (5000, 14)
+
+Missing Values:
+Transaction_ID           0
+Customer_ID              0
+Transaction_Date         0
+Transaction_Amount       0
+Merchant_Category        0
+Payment_Method           0
+Device_Type              0
+Location                 0
+Is_International         0
+Previous_Transactions    0
+Average_Spend            0
+Account_Age_Days         0
+Suspicious_Keyword       0
+Fraudulent               0
+
+Duplicate Rows: 0
+
+Fraud Distribution:
+Fraudulent
+0    4518
+1     482
+
+Data Types:
+Transaction_ID            object
+Customer_ID               object
+Transaction_Date          object
+Transaction_Amount       float64
+Merchant_Category         object
+Payment_Method            object
+Device_Type               object
+Location                  object
+Is_International           int64
+Previous_Transactions      int64
+Average_Spend            float64
+Account_Age_Days           int64
+Suspicious_Keyword        object
+Fraudulent                 int64

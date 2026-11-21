@@ -218,3 +218,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Financial Fraud Detection - dataset files
+data/raw/
+data/processed/*.csv
+data/processed/model_ready/*.csv
+
+# Local database and sensitive files
+*.db
+*.sqlite3
+.env
+.env.*
+
+# Python virtual environments
+venv/
+.venv/
+
+# IDE and temporary files
+.vscode/
+.DS_Store
